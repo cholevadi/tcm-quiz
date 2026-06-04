@@ -528,7 +528,7 @@ buildHome();
 </body>
 </html>'''
 
-out = r"C:\Users\Adi\Code\Chinease_medicine\quiz.html"
+out = r"C:\Users\Adi\Code\Chinease_medicine\index.html"
 with open(out, 'w', encoding='utf-8') as f:
     f.write(html)
 print(f"✓ Written: {out}")
